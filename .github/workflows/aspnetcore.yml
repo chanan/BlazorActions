@@ -19,7 +19,7 @@ jobs:
     - name: Build with dotnet
       run: dotnet build --configuration Debug
     - name: Deploy
-      uses: ./.github/action-deploy-to-docs
+      uses: ./.github/actions/action-deploy-to-docs
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BRANCH: master
