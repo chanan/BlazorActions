@@ -1,4 +1,4 @@
-FROM ubuntu-latest
+FROM debian:9.5-slim
 
 LABEL "com.github.actions.name"="Deploy to Docs"
 LABEL "com.github.actions.description"="Deploy to to github pages (/docs)"
